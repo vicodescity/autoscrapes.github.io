@@ -1,0 +1,1 @@
+I was asked to generate a posts from a website and then automate the website with selenium and operadriver to click a link and then go back and then loop through the command.
