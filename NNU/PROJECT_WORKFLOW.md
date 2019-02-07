@@ -1,6 +1,6 @@
 This was my very first webscraping project with python.
-The project was for a website called NNu.ng
-This is the full link ---->https://www.nnu.ng
+The project was for a website called nnu.ng
+This is the full link ----> https://www.nnu.ng
 
 So the site pays you for every posts you open(The ones that have a time text attached to it), since there are alot of posts,
 he wanted to automate it. So i divided the project into three steps.
@@ -20,3 +20,4 @@ step 3 --- The main script that automates the whole process. First of all it ent
   where it stoppd at -17.
   And then it goes back to the front page and then reads another line from the text file.
   It does until the last post.
+All fellow pythoneers who think the program can run better are open to send me a pull request.
