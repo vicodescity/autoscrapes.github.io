@@ -1,1 +1,0 @@
-The entire process is still not completely automated though, the user has to edit the links that have been scraped with beautifulsoup.
