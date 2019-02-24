@@ -1,0 +1,26 @@
+The python file named Jumia is the main script that was used for this project and also the result.csv file which is where the scraped document would go.
+
+PROJECT GUIDE:
+ The client who gave me the project knew a little about webdcraping, but he used a different programming language and was stuck then he was asked by his 
+employer to write the script in python which he didn't have a good enough grasp of, so the things was that:
+
+1) The script should go to the main page of the website which is (http://jumia.com.ng/) and is a very popular online shopping store.
+
+2) Since he knew a little about webscraping he said that the script should be able to click on the category provided to it, he said he could locate the
+   xpath of the category, so that wouldn't be a problem
+
+3) Then he said i should then find the brand, title and price of all the items that would appear once the category page had been opened, and then send that
+   scraped data to the csv file which i pointed above.
+
+
+MY STEPS:
+
+1) Firstly i initialized selenium webdriver and ran it with geckpdriver(firefox).
+
+2) When loading up the page there was a pop-up/newsletter that would appear, so i inspected the popup, and located the 'X' button by xpath and then click it.
+
+3) Also i located the categories that he wanted through the xpath, and made it known to him how he could find it.
+
+4) Then i added a time.sleep method and it would sleep for 3 seconds, then i initialized beautifulsoup.
+
+5) And then located the title, branch and the price like he suggested, check the python script file to see how i went about doing this :).
