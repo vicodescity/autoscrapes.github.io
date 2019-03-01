@@ -1,0 +1,11 @@
+The goal of this project was to automate the process of logging in, selecting a post and then commenting in the commenting box and then sending it and then repaeat the process for the posts.
+
+I solved this project by creating 4 files.
+
+The first was to create the python file that would scrape the link href that would be used for the automation, this file would then write the links to the second file i created.
+
+The second file was a text file, which all the links from the scrape would be written to, and also where the automation file would find the links.
+
+The third was a python file which i named 'Comments', she(the client) didn't want to be typing continously, so she said i should time some sentences that the automation file would then select from. In this i created a list that contained  numerous sentences.
+
+The final file was the main python file/script which would be responsible for the automation, i used Firefox's geckodriver as the webdriver, and imported the Comments file and also the random module, i created a loop, in this it would select the text file that had the links after reading from it, then it would then randomly select from the list in the comments. Next after clicking the post link, it would switch to the iframe where the comment box is in, then input the sentences randomly from the comments file,and then click on the reply button and then go back to the home page and select the next post, it does this until the last post link or till the client stops it. 
