@@ -1,0 +1,2 @@
+The folders available which are currently 2, are the NNU, Jumia folder and WAKANDA
+which contains the scripts used for the projects, there is also a good piece of documentation.
