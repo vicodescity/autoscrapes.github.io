@@ -1,0 +1,1 @@
+I redid the earlier jumia project, but this time using Scrapy(gonna be adding it to my skill resume soon)
