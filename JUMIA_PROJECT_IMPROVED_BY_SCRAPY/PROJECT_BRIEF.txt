@@ -1,0 +1,9 @@
+I redid and improved on the previous JUMIA project, which i did earlier with beautifulsoup.
+
+Now that i had added the knowledge of Scrapy to my repetoir, i decided to contact the client that gave me the job, and reached out to her and
+told her that i wanted to update the previous script i had created and i told her i would do it for free, and she was shocked it. So i the script i created
+not only scraped the information of one category, this one would scrape all the required info from all the main categories in the site and save the info to 
+a csv file.
+
+Check out the script above to get the full details.
+ 
